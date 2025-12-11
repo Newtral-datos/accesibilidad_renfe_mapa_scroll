@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8' />
+    <title>Plantilla Mapbox Storytelling - Accesibilidad (Lógica Externa)</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v3.8.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v3.8.0/mapbox-gl.css' rel='stylesheet' />
+    <script src="https://unpkg.com/scrollama"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mapbox-gl-globe-minimap@1.2.0/dist/bundle.js"></script>
+
+    <style>
+        /* ESTILOS GENERALES (Se mantienen para #map, #story, .step, etc.) */
+        body { margin: 0; padding: 0; font-family: Helvetica, sans-serif; }
+        #map { top: 0; height: 100vh; width: 100vw; position: fixed; z-index: 1; }
+        #story { position: relative; z-index: 5; }
+        
+        /* HEADER (Primer Recuadro) */
+        #header {
+            width: 500px; margin: 50vh auto 100vh auto; padding: 20px;
+            font-size: 18px; 
+            background-color: rgba(121, 121, 121, 0.75); 
+            color: white; border-radius: 10px;
+            text-align: center;
+        }
+
+        /* PASOS NARRATIVOS (Recuadros .step) */
+        .step {
+            width: 500px; margin: 0 auto 100vh auto; padding: 20px;
+            background-color: rgba(121, 121, 121, 0.75); 
+            color: white;
+            border-radius: 10px; opacity: 0.9;
+            font-size: 18px; 
+        }
+
+        .step.active { opacity: 1; }
+        
+        /* REGLAS PARA AUMENTAR EL TAMAÑO DE LOS TEXTOS ESPECÍFICOS */
+        #header h1 {
+            font-size: 3.0em; /* Título principal */
+        }
+        #header h2 {
+            font-size: 1.8em; /* Subtítulo */
+        }
+        .step h3 {
+            font-size: 1.6em; /* Título de cada capítulo */
+        }
+        .step div {
+            font-size: 1.1em; /* Texto descriptivo del cuerpo */
+            line-height: 1.6; /* Mejora la legibilidad */
+        }
+
+        /* AJUSTE PARA MÓVIL */
+        @media (max-width: 750px) {
+            .step, #header { 
+                width: 90%; 
+                margin-bottom: 60vh; 
+                background-color: rgba(121, 121, 121, 0.75); 
+                font-size: 16px; /* Tamaño base en móvil */
+            }
+            .step h3 {
+                font-size: 1.4em;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="map"></div>
+    <div id="story"></div> 
+    
+    <script src="./config.js"></script>
+</body>
+</html>
