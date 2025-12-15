@@ -78,7 +78,6 @@ const config = {
         },
         {
             id: 'constante-regional',
-            title: 'Una Realidad en cada Región',
             description: 'Este problema es una constante en las diferentes regiones del país, desde las grandes ciudades hasta las líneas de cercanías regionales.',
             location: {
                 desktop: { "center":[-4.5168,40.4391],"zoom":5.79,"pitch":0,"bearing":0, "mapAnimation": 'jumpTo' },
@@ -288,4 +287,5 @@ window.addEventListener('resize', () => {
 // Inicialización de Scrollama
 scroller
     .setup({ step: '.step', offset: 0.5, debug: false })
+
     .onStepEnter(handleStepEnter);
