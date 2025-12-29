@@ -53,7 +53,7 @@ const config = {
 chapters: [
     {
         id: 'intro',
-        description: 'Cercanías es uno de los principales medios de transporte nacionales, proporcionando un servicio de transporte urbano que es usado por más de un millón de usuarios diarios, <a href="https://www.renfe.com/es/es/grupo-renfe/sociedades/renfe-viajeros/viajeros-conocenos/cercanias">según su operador Renfe</a>. Pero su uso no es igual de sencillo para todas las personas.',
+        description: 'Cercanías es uno de los principales medios de transporte urbanos con más de un millón de usuarios diarios, <a href="https://www.renfe.com/es/es/grupo-renfe/sociedades/renfe-viajeros/viajeros-conocenos/cercanias">según su operador Renfe</a>. Pero su uso no es igual de sencillo para todas las personas.',
         location: {
             desktop: { "center":[-4.5168,40.4391],"zoom":5.79,"pitch":0,"bearing":0, "mapAnimation": 'jumpTo' },
             mobile: { "center":[-2.9756,41.0247],"zoom":4.39,"pitch":0,"bearing":0, "mapAnimation": 'jumpTo' }
@@ -77,7 +77,7 @@ chapters: [
     },
     {
         id: 'presentacion-cermi',
-        description: 'Por ello Daniel Domínguez, asesor de movilidad inclusiva en el Comité Español de Representantes de Personas con Discapacidad (CERMI) define Cercanías como el <span style="background:#01f3b3; padding:1px 2px; border-radius:2px; color:black; box-shadow:0px 0px 5px 1px rgba(0,0,0,0.07); cursor:pointer;">"medio de transporte más excluyente para las personas con discapacidad".</span>',
+        description: 'Daniel Domínguez, asesor de movilidad inclusiva en el Comité Español de Representantes de Personas con Discapacidad (CERMI) define Cercanías como el <span style="background:#01f3b3; padding:1px 2px; border-radius:2px; color:black; box-shadow:0px 0px 5px 1px rgba(0,0,0,0.07); cursor:pointer;">"medio de transporte más excluyente para las personas con discapacidad".</span>',
         location: {
             desktop: { "center":[-4.5168,40.4391],"zoom":5.79,"pitch":0,"bearing":0, "mapAnimation": 'jumpTo' },
             mobile: { "center":[-2.9756,41.0247],"zoom":4.39,"pitch":0,"bearing":0, "mapAnimation": 'jumpTo' }
@@ -89,7 +89,7 @@ chapters: [
     },
     {
         id: 'ave',
-        description: 'Esta situación no es igual en todos los servicios ferroviarios. En el caso de la larga distancia y alta velocidad la adaptabilidad es casi completa.<br><br>Pero, mientras que estos servicios contaron con 42 millones de viajeros en 2023, Cercanías, mucho menos adaptado, movilizó 10 veces más usuarios ese año, de acuerdo con el Observatorio del Ferrocarril.<br><br>Como consecuencia, desde el CERMI consideran que <span style="background:#01f3b3; padding:1px 2px; border-radius:2px; color:black; box-shadow:0px 0px 5px 1px rgba(0,0,0,0.07); cursor:pointer;">"la accesibilidad continúa siendo la gran asignatura pendiente de Cercanías".</span>',
+        description: 'Esta situación no es igual en todos los servicios ferroviarios. En el caso de la larga distancia y la alta velocidad la adaptabilidad es casi completa.<br><br>Pero, mientras que estos servicios contaron con 42 millones de viajeros en 2023, Cercanías, mucho menos adaptado, movilizó 10 veces más usuarios ese año, de acuerdo con el Observatorio del Ferrocarril.<br><br>Como consecuencia, desde el CERMI consideran que <span style="background:#01f3b3; padding:1px 2px; border-radius:2px; color:black; box-shadow:0px 0px 5px 1px rgba(0,0,0,0.07); cursor:pointer;">"la accesibilidad continúa siendo la gran asignatura pendiente de Cercanías".</span>',
         location: {
             desktop: { "center":[-4.5168,40.4391],"zoom":5.79,"pitch":0,"bearing":0, "mapAnimation": 'jumpTo' },
             mobile: { "center":[-2.9756,41.0247],"zoom":4.39,"pitch":0,"bearing":0, "mapAnimation": 'jumpTo' }
@@ -101,7 +101,7 @@ chapters: [
     },
     {
         id: 'estaciones-accesibles',
-        description: 'De las 790 estaciones de Cercanías que figuran en la web de Renfe, únicamente 403 aparecen como accesibles 🟢.<br><br>Esto implica que <span style="background:#01f3b3; padding:1px 2px; border-radius:2px; color:black; box-shadow:0px 0px 5px 1px rgba(0,0,0,0.07); cursor:pointer;">casi la mitad de estaciones no están adaptadas</span> a las personas que utilizan silla de ruedas.',
+        description: 'De las 790 estaciones de Cercanías que figuran en la web de Renfe, únicamente 403 aparecen como accesibles (🟢 en el mapa).<br><br>Esto implica que <span style="background:#01f3b3; padding:1px 2px; border-radius:2px; color:black; box-shadow:0px 0px 5px 1px rgba(0,0,0,0.07); cursor:pointer;">casi la mitad de estaciones no están adaptadas</span> a las personas que utilizan silla de ruedas.',
         location: {
             desktop: { "center":[-4.5168,40.4391],"zoom":5.79,"pitch":0,"bearing":0, "mapAnimation": 'jumpTo' },
             mobile: { "center":[-2.9756,41.0247],"zoom":4.39,"pitch":0,"bearing":0, "mapAnimation": 'jumpTo' }
@@ -125,7 +125,7 @@ chapters: [
     },
     {
         id: 'discrepancia-renfe',
-        description: 'La diferencia en las cifras se debe a que Renfe no proporciona información clara sobre qué estaciones son accesibles. El número varía dependiendo de la página que se consulte.<br><br>Desde Newtral se han consultado los apartados de la web de Renfe correspondientes con las estaciones de cada línea (más detalles en la metodología).',
+        description: '<b>• Un apunte.</b> La diferencia en las cifras se debe a que Renfe no proporciona información clara sobre qué estaciones son accesibles. El número varía dependiendo de la página que se consulte. Desde Newtral se han consultado los apartados de la web de Renfe correspondientes con las estaciones de cada línea (más detalles en la metodología).',
         location: {
             desktop: { "center":[-4.5168,40.4391],"zoom":5.79,"pitch":0,"bearing":0, "mapAnimation": 'jumpTo' },
             mobile: { "center":[-2.9756,41.0247],"zoom":4.39,"pitch":0,"bearing":0, "mapAnimation": 'jumpTo' }
@@ -137,7 +137,7 @@ chapters: [
     },
     {
         id: 'discrepancias-renfe-2',
-        description: 'Esta falta de información supone un problema añadido para las personas con movilidad reducida, para quienes <span style="background:#01f3b3; padding:1px 2px; border-radius:2px; color:black; box-shadow:0px 0px 5px 1px rgba(0,0,0,0.07); cursor:pointer;">la planificación es una parte fundamental de cada viaje.<br></span><iframe title="" aria-label="Gráfico de columnas" id="datawrapper-chart-xkGFI" src="https://datawrapper.dwcdn.net/xkGFI/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none; background-color: white;" height="418" data-external="1"></iframe><script type="text/javascript">window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data["datawrapper-height"][t]+"px";r.style.height=d}}});</script>',
+        description: 'Esta falta de información supone un problema añadido para las personas con movilidad reducida, para quienes <span style="background:#01f3b3; padding:1px 2px; border-radius:2px; color:black; box-shadow:0px 0px 5px 1px rgba(0,0,0,0.07); cursor:pointer;">la planificación es una parte fundamental de cada viaje.</span><br><br><iframe title="" aria-label="Gráfico de columnas" id="datawrapper-chart-xkGFI" src="https://datawrapper.dwcdn.net/xkGFI/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none; background-color: white;" height="418" data-external="1"></iframe><script type="text/javascript">window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data["datawrapper-height"][t]+"px";r.style.height=d}}});</script>',
         location: {
             desktop: { "center":[-4.5168,40.4391],"zoom":5.79,"pitch":0,"bearing":0, "mapAnimation": 'jumpTo' },
             mobile: { "center":[-2.9756,41.0247],"zoom":4.39,"pitch":0,"bearing":0, "mapAnimation": 'jumpTo' }
@@ -150,7 +150,7 @@ chapters: [
 
     {
         id: 'problema-regional',
-        title: "Pero el problema de la accesibilidad no es igual en todas las regiones",
+        title: "El problema de la accesibilidad en Cercanías no es igual en todas las regiones:",
         location: {
             desktop: { "center":[-4.5168,40.4391],"zoom":5.79,"pitch":0,"bearing":0, "mapAnimation": 'jumpTo' },
             mobile: { "center":[-2.9756,41.0247],"zoom":4.39,"pitch":0,"bearing":0, "mapAnimation": 'jumpTo' }
@@ -222,7 +222,7 @@ chapters: [
     },
     {
         id: 'san-sebastian',
-        description: 'Algo similar sucede en otra ciudad vasca, San Sebastián, donde el porcentaje se eleva al 25%.',
+        description: 'Algo similar sucede en otra ciudad vasca, San Sebastián, donde el porcentaje sube pero se queda en el 25%.',
         location: {
             desktop: { "center":[-2.0962,43.1765],"zoom":9.35,"pitch":29,"bearing":-15, "mapAnimation": 'flyTo' },
             mobile: { "center":[-2.0962,43.1765],"zoom":9.35,"pitch":29,"bearing":-15, "mapAnimation": 'flyTo' }
@@ -270,7 +270,7 @@ chapters: [
     },
     {
         id: 'c5',
-        description: 'Sin embargo, en la línea C5, situada en el sur de la Comunidad, solo tres de sus 23 paradas están adaptadas, a pesar de que cinco de ellas estuvieron entre las 30 más transitadas.<br><br>Resulta llamativa la baja accesibilidad ya que la línea transcurre por tres de los seis municipios con más población de Madrid, según el INE: Móstoles (214.800 habitantes), Leganés (195.700) y Fuenlabrada (190.000).',
+        description: 'Sin embargo, en la línea C5, situada en el sur de la Comunidad, solo tres de sus 23 paradas están adaptadas, a pesar de que cinco de ellas estuvieron entre las 30 más transitadas.<br><br>La baja accesibilidad coincide con que la línea transcurre por tres de los seis municipios con más población de Madrid en 2025, según el INE: Móstoles (214.800 habitantes), Leganés (195.700) y Fuenlabrada (190.000).',
         location: {
             desktop: { "center":[-3.8043,40.3181],"zoom":11.24,"pitch":25,"bearing":0, "mapAnimation": 'flyTo' },
             mobile: { "center":[-3.8043,40.3181],"zoom":11.24,"pitch":25,"bearing":0, "mapAnimation": 'flyTo' }
@@ -282,7 +282,7 @@ chapters: [
     },
     {
         id: 'dominguez-no-accesible',
-        description: 'Domínguez incide en que, cuando necesitas una silla de ruedas para poder desplazarte, "ni te planteas ir a una estación no accesible".<br><br>Tomar una decisión como esa "es como retroceder a la humillación de hace años, ya que dependen del voluntarismo de las personas para poder viajar".',
+        description: 'Domínguez incide en que, cuando necesitas una silla de ruedas para poder desplazarte, “ni te planteas ir a una estación no accesible” y supone depender de otras personas para poder viajar.',
         location: {
             desktop: { "center":[-4.5168,40.4391],"zoom":5.79,"pitch":0,"bearing":0, "mapAnimation": 'flyTo' },
             mobile: { "center":[-2.9756,41.0247],"zoom":4.39,"pitch":0,"bearing":0, "mapAnimation": 'flyTo' }
@@ -294,7 +294,7 @@ chapters: [
     },
     {
         id: 'dominguez-no-accesible2',
-        description: 'Por tanto, la existencia de una sola estación no adaptada en una línea ya imposibilita por completo que los usuarios viajen hacia o desde dicha parada.<br><iframe src="https://flo.uri.sh/visualisation/26723197/embed" title="Interactive content" frameborder="0" scrolling="no" style="width:100%;height:1000px;background-color:white;" sandbox="allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation"></iframe>',
+        description: 'Por tanto, la existencia de una sola estación no adaptada en una línea ya imposibilita por completo que los usuarios viajen hacia o desde dicha parada.<br><br><iframe src="https://flo.uri.sh/visualisation/26723197/embed" title="Interactive content" frameborder="0" scrolling="no" style="width:100%;height:1000px;background-color:white;" sandbox="allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation"></iframe>',
         location: {
             desktop: { "center":[-4.5168,40.4391],"zoom":5.79,"pitch":0,"bearing":0, "mapAnimation": 'flyTo' },
             mobile: { "center":[-2.9756,41.0247],"zoom":4.39,"pitch":0,"bearing":0, "mapAnimation": 'flyTo' }
@@ -308,7 +308,7 @@ chapters: [
 
     {
         id: 'ley',
-        description: 'Para Domínguez, Renfe "no se ha tomado en serio" la adaptación del servicio ferroviario. La legislación existente sobre accesibilidad en el transporte público entró en vigor en 2007 con el <a href="https://www.boe.es/buscar/act.php?id=BOE-A-2007-20785#ani">Real Decreto 1544/2007.</a>',
+        description: 'Para Domínguez, Renfe “no se ha tomado en serio” la adaptación de Cercanías. La legislación existente sobre accesibilidad en el transporte público entró en vigor en 2007 con el <a href="https://www.boe.es/buscar/act.php?id=BOE-A-2007-20785#ani">Real Decreto 1544/2007.</a>',
         location: {
             desktop: { "center":[-4.5168,40.4391],"zoom":5.79,"pitch":0,"bearing":0, "mapAnimation": 'flyTo' },
             mobile: { "center":[-2.9756,41.0247],"zoom":4.39,"pitch":0,"bearing":0, "mapAnimation": 'flyTo' }
@@ -332,7 +332,19 @@ chapters: [
     },
     {
         id: 'mad-sur',
-        description: 'En el caso de las de más de 1.000 habitantes o situadas en capitales de provincias, el plazo para la adaptación terminó en 2015.<br><br>Sin embargo, ni la estación de Fuenlabrada (26.690 viajeros diarios en 2023) ni la de Móstoles (23.000 usuarios al día) están adaptadas, situación que se repite en otras estaciones de gran afluencia.',
+        description: 'En el caso de las de más de 1.000 habitantes o situadas en capitales de provincias, el plazo para la adaptación terminó en 2015.',
+        location: {
+            desktop: { "center":[-3.8043,40.3181],"zoom":11.24,"pitch":25,"bearing":0, "mapAnimation": 'flyTo' },
+            mobile: { "center":[-3.8043,40.3181],"zoom":11.24,"pitch":25,"bearing":0, "mapAnimation": 'flyTo' }
+        },
+        onChapterEnter: function(map) {
+            config.pintarEstaciones(map, config.STATION_COLOR_EXPRESSION);
+            config.pintarLineas(map, config.LINE_COLOR_EXPRESSION);
+        }
+    },
+    {
+        id: 'mad-sur2',
+        description: 'Sin embargo, ni la estación de Fuenlabrada (26.690 viajeros diarios en 2023) ni la de Móstoles (23.000 usuarios al día) están adaptadas, situación que se repite en otras estaciones de gran afluencia.',
         location: {
             desktop: { "center":[-3.8043,40.3181],"zoom":11.24,"pitch":25,"bearing":0, "mapAnimation": 'flyTo' },
             mobile: { "center":[-3.8043,40.3181],"zoom":11.24,"pitch":25,"bearing":0, "mapAnimation": 'flyTo' }
@@ -356,7 +368,7 @@ chapters: [
     },
     {
         id: 'lesvalles',
-        description: 'Renfe ha informado de que continúan reformando estaciones para lograr una mayor accesibilidad.<br><br>En 2025 invirtieron 39 millones de euros para adaptar una treintena de estaciones, habiendo concluido también la reforma en Les Valles (València).',
+        description: 'Renfe ha informado de que continúa reformando estaciones para lograr una mayor accesibilidad.<br><br>En 2025 invirtieron 39 millones de euros para adaptar una treintena de estaciones, habiendo concluido también la reforma en Les Valles (València).',
         location: {
             desktop: { "center":[-0.2474,39.7027],"zoom":11.37,"pitch":25,"bearing":25, "mapAnimation": 'flyTo' },
             mobile: { "center":[-0.2474,39.7027],"zoom":11.37,"pitch":25,"bearing":25, "mapAnimation": 'flyTo' }
@@ -392,7 +404,31 @@ chapters: [
     },
     {
         id: 'denuncia-cermi',
-        description: 'Además, incluso si se materializan las previsiones de la compañía, Cercanías llega tarde, al haber incumplido los plazos legales establecidos en 2007.<br><br>Esta situación ha empujado a asociaciones como el CERMI a llevar a la compañía ferroviaria a los tribunales.',
+        description: 'Además, incluso si se materializan las previsiones de la compañía, Cercanías llega tarde, al haber incumplido los plazos legales establecidos en 2007.<br><br>Esta situación ha empujado a asociaciones como el CERMI a <a href = "https://observatoriodelaaccesibilidad.es/archivos/5106">llevar a la compañía ferroviaria a los tribunales.</a>',
+        location: {
+            desktop: { "center":[-4.5168,40.4391],"zoom":5.79,"pitch":0,"bearing":0, "mapAnimation": 'flyTo' },
+            mobile: { "center":[-2.9756,41.0247],"zoom":4.39,"pitch":0,"bearing":0, "mapAnimation": 'flyTo' }
+        },
+        onChapterEnter: function(map) {
+            config.pintarEstaciones(map, config.STATION_COLOR_EXPRESSION);
+            config.pintarLineas(map, config.LINE_COLOR_EXPRESSION);
+        }
+    },
+    {
+        id: 'vehiculos-accesibles',
+        description: 'Los problemas de accesibilidad de las estaciones se suman a la falta de trenes adaptados. <span style="background:#01f3b3; padding:1px 2px; border-radius:2px; color:black; box-shadow:0px 0px 5px 1px rgba(0,0,0,0.07); cursor:pointer;">Un 35% de los trenes sigue sin estar adaptado</span> y, aunque puedas acceder al andén, puede pasar mucho tiempo sin que llegue un tren que te permita subirte.<br><br><iframe title="Un 35% de los vehículos de Cercanías continúan sin ser accesibles" aria-label="Líneas" id="datawrapper-chart-GgB9t" src="https://datawrapper.dwcdn.net/GgB9t/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; background: white; border: none;" height="451" data-external="1"></iframe><script type="text/javascript">window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data["datawrapper-height"][t]+"px";r.style.height=d}}});</script>',
+        location: {
+            desktop: { "center":[-4.5168,40.4391],"zoom":5.79,"pitch":0,"bearing":0, "mapAnimation": 'flyTo' },
+            mobile: { "center":[-2.9756,41.0247],"zoom":4.39,"pitch":0,"bearing":0, "mapAnimation": 'flyTo' }
+        },
+        onChapterEnter: function(map) {
+            config.pintarEstaciones(map, config.STATION_COLOR_EXPRESSION);
+            config.pintarLineas(map, config.LINE_COLOR_EXPRESSION);
+        }
+    },
+    {
+        id: 'ambiente-hostil',
+        description: '<span style="background:#01f3b3; padding:1px 2px; border-radius:2px; color:black; box-shadow:0px 0px 5px 1px rgba(0,0,0,0.07); cursor:pointer;">“Una estación es el ambiente más hostil para una persona con discapacidad”</span>, señala Domínguez',
         location: {
             desktop: { "center":[-4.5168,40.4391],"zoom":5.79,"pitch":0,"bearing":0, "mapAnimation": 'flyTo' },
             mobile: { "center":[-2.9756,41.0247],"zoom":4.39,"pitch":0,"bearing":0, "mapAnimation": 'flyTo' }
@@ -439,16 +475,13 @@ chapters: [
         }
     }
 
-        // A partir de este punto permitir la navegación libre por el mapa.
-
-
     ]
 };
 
-// A partir de este punto permitir la navegación libre por el mapa.
+// A partir de este punto se permite la navegación libre por el mapa.
 
 
-// ========= LÓGICA DE INICIALIZACIÓN Y EVENTOS (MOVIDA DESDE INDEX.HTML) ===========
+// ========= LÓGICA DE INICIALIZACIÓN Y EVENTOS ===========
 
 // 1. Generación dinámica del HTML basada en config.js
 const story = document.getElementById('story');
