@@ -12,7 +12,20 @@
 
     <style>
         /* ESTILOS GENERALES (Se mantienen para #map, #story, .step, etc.) */
-        body { margin: 0; padding: 0; font-family: Helvetica, sans-serif; }
+        body { 
+            margin: 0; 
+            padding: 0; 
+            font-family: Helvetica, sans-serif;
+            /* Ocultar barra de desplazamiento pero mantener funcionalidad */
+            -ms-overflow-style: none;  /* IE y Edge */
+            scrollbar-width: none;  /* Firefox */
+        }
+        
+        /* Ocultar barra de desplazamiento en Chrome, Safari y Opera */
+        body::-webkit-scrollbar {
+            display: none;
+        }
+        
         #map { top: 0; height: 100vh; width: 100vw; position: fixed; z-index: 1; }
         #story { position: relative; z-index: 5; }
         
