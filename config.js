@@ -416,7 +416,7 @@ chapters: [
     },
     {
         id: 'vehiculos-accesibles',
-        description: 'Los problemas de accesibilidad de las estaciones se suman a la <a href="https://www.newtral.es/trenes-cercanias-movilidad-reducida/20251229/">falta de trenes adaptados</a>. <span style="background:#01f3b3; padding:1px 2px; border-radius:2px; color:black; box-shadow:0px 0px 5px 1px rgba(0,0,0,0.07); cursor:pointer;">Un 35% de los trenes sigue sin estar adaptado</span> y, aunque puedas acceder al andén, puede pasar mucho tiempo sin que llegue un tren que te permita subirte.<br><br><iframe title="Un 35% de los vehículos de Cercanías continúan sin ser accesibles" aria-label="Líneas" id="datawrapper-chart-s0xPQ" src="https://datawrapper.dwcdn.net/s0xPQ/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="449" data-external="1"></iframe><script type="text/javascript">window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data["datawrapper-height"][t]+"px";r.style.height=d}}});</script>',
+        description: 'Los problemas de accesibilidad de las estaciones se suman a la <a href="https://www.newtral.es/trenes-cercanias-movilidad-reducida/20251229/">falta de trenes adaptados</a>. <span style="background:#01f3b3; padding:1px 2px; border-radius:2px; color:black; box-shadow:0px 0px 5px 1px rgba(0,0,0,0.07); cursor:pointer;">Un 35% de los trenes sigue sin estar adaptado</span> y, aunque puedas acceder al andén, puede pasar mucho tiempo sin que llegue un tren que te permita subirte.<br><br><iframe title="Un 35% de los vehículos de Cercanías continúan sin ser accesibles" aria-label="Líneas" id="datawrapper-chart-s0xPQ" src="https://datawrapper.dwcdn.net/s0xPQ/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none; background-color: white;" height="449" data-external="1"></iframe><script type="text/javascript">window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data["datawrapper-height"][t]+"px";r.style.height=d}}});</script>',
         location: {
             desktop: { "center":[-4.5168,40.4391],"zoom":5.79,"pitch":0,"bearing":0, "mapAnimation": 'flyTo' },
             mobile: { "center":[-2.9756,41.0247],"zoom":4.39,"pitch":0,"bearing":0, "mapAnimation": 'flyTo' }
@@ -766,5 +766,6 @@ function dumpCurrentChapterConfig() {
 
     console.log(JSON.stringify(configObject));
 }
+
 
 
